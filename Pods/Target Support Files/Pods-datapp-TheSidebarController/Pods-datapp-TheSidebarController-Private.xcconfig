@@ -1,0 +1,6 @@
+#include "Pods-datapp-TheSidebarController.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TheSidebarController" "${PODS_ROOT}/Headers/Private/TheSidebarController/TheSidebarController" "${PODS_ROOT}/Headers/Private/TheSidebarController/TheSidebarController/Animations" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/CGLAlphabetizer" "${PODS_ROOT}/Headers/Public/TheSidebarController" "${PODS_ROOT}/Headers/Public/TheSidebarController/TheSidebarController" "${PODS_ROOT}/Headers/Public/TheSidebarController/TheSidebarController/Animations"
+OTHER_LDFLAGS = ${PODS_DATAPP_THESIDEBARCONTROLLER_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
